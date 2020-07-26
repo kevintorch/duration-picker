@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sample-duration-picker</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/durationPickerLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingStart="8dip"
+    android:paddingLeft="8dip"
+    android:paddingEnd="8dip"
+    android:paddingRight="8dip">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal"
+        android:paddingLeft="8dip"
+        android:paddingStart="8dip"
+        android:paddingRight="8dip"
+        android:paddingEnd="8dip"
+        android:paddingTop="16dip"
+        android:paddingBottom="16dip">
+
+        <!-- hour -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <NumberPicker
+                android:id="@+id/hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?textAppearanceCaption"
+                android:textColor="?colorOnSurface"
+                android:text="Hour" />
+        </LinearLayout>
+
+
+        <!-- divider -->
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginStart="8dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dip"
+            android:layout_marginRight="8dip"
+            android:importantForAccessibility="no" />
+
+        <!-- minute -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <NumberPicker
+                android:id="@+id/minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?textAppearanceCaption"
+                android:textColor="?colorOnSurface"
+                android:text="Minute" />
+        </LinearLayout>
+
+        <!--        <NumberPicker-->
+        <!--            android:id="@+id/second"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="12dip"-->
+        <!--            android:layout_marginLeft="12dip"-->
+        <!--            android:layout_marginTop="16dip"-->
+        <!--            android:layout_marginBottom="16dip"-->
+        <!--            android:focusable="true"-->
+        <!--            android:focusableInTouchMode="true" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="durationPickerTheme" format="reference" />
+    <declare-styleable name="DurationPicker">
+        <attr name="layout" format="reference" />
+    </declare-styleable>
+</resources>
